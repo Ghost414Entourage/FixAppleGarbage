@@ -11,3 +11,4 @@ gpt destroy /dev/disk0
 diskutil cs create Macintosh\ HD /dev/disk0
 
 
+diskutil cs createVolume 'fill in' jhfs+ Macintosh\ HD 100%
