@@ -1,0 +1,3 @@
+hdiutil detach /dev/disk0
+
+
