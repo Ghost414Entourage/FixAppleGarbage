@@ -1,3 +1,6 @@
 hdiutil detach /dev/disk0
 
 
+printf '\200\0\0\0\0\0\0\0\0\0\0\0\001\0\0\0' | dd of=/dev/disk0 bs=1 seek=462
+
+
