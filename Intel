@@ -21,3 +21,4 @@ diskutil cs createVolume logicalvolumegroup jhfs+ Macintosh\ HD 100%
 diskutil eraseDisk JHFS+ "Macintosh HD" GPT /dev/disk0
 
 
+diskutil eraseDisk JHFS+ UntitledUFS /dev/disk0
